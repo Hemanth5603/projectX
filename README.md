@@ -1,3 +1,3 @@
-# projectx
+# projectX
 
-A new Flutter project.
+Not just a new Flutter project...
