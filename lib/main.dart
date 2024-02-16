@@ -17,7 +17,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'poppins',
+        scaffoldBackgroundColor:const Color.fromARGB(255, 255, 255, 255),
+      ),
       home: Scaffold(
         body: Center(
           child: Text('Hello World!'),
