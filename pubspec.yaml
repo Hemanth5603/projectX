@@ -11,6 +11,7 @@ dependencies:
   firebase_database: ^10.4.5
   flutter:
     sdk: flutter
+  flutter_animate: ^4.5.0
   get: ^4.6.6
   google_fonts: ^6.1.0
 
@@ -25,4 +26,8 @@ flutter:
   fonts:
     - family: poppins
       fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf  
+        - asset: assets/fonts/Poppins-Regular.ttf 
+        
+    - family: roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf 
